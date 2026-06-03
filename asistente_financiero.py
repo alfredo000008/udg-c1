@@ -27,14 +27,14 @@ print("----------------------------")
 # 4. TOMA DE DECISIONES LOGÍSTICA (Condicionales if / elif / else)
 if balance_final > 100:
     print("😎 ¡Vas excelente! Te quedan $" + str(balance_final) + " libres.")
-    print("Recomendación: Guarda un poco para ahorrar o date un gusto el fin de semana.")
+    print("Recomendación: Guarda un poco para ahorrar o date un gusto el fin de semana")
 
 elif balance_final >= 0 and balance_final <= 100:
     print("😐 Presupuesto ajustado. Te quedan $" + str(balance_final) + ".")
-    print("Recomendación: Evita gastos hormiga (cafés, papitas) el resto de la semana.")
+    print("Recomendación: Evita gastos hormiga (cafés, papitas) el resto de la semana")
 
 else:
     # El balance es negativo (conversión a positivo con abs() para que se lea bien)
     dinero_faltante = abs(balance_final)
     print("😰 ¡Alerta de quiebra! Te pasaste por: $" + str(dinero_faltante))
-    print("Recomendación: Toca activar el modo austero y llevar lonche desde casa.")
+    print("Recomendación: Toca activar el modo austero y llevar lonche desde casa")
